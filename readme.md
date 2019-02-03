@@ -1,6 +1,6 @@
 ## Installation Instructions
 
-- Run git clone https://github.com/Jinearth9/internship.git
+- Run git clone https://XianZhinZhu@bitbucket.org/kasosloob/taqah-soc-2019.git
 - Create a MySQL database for the project
     - mysql -u root -p
     - create database 'your-db-name';
