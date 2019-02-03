@@ -15,4 +15,6 @@
 - From the projects root folder run 'php artisan key:generate'
 - From the projects root folder run 'php artisan migrate'
 - Run 'php artisan serve'
+- Run 'php artisan twitter:listen 1'
+- Run 'php artisan twitter:listen 2'
 - Start server at http://localhost:8000
