@@ -1,0 +1,244 @@
+@media (min-width: 1440px) {
+.container {
+    max-width: 1400px;
+}
+}
+body {
+    background: #fff;
+}
+.clear {
+    clear: both;
+}
+nav {
+    background: #fff;
+    height: 55px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.logo {
+    width: 81px;
+    height: 44px;
+    margin: 5px auto;
+}
+#navbarResponsive a{
+    color: #333;
+}
+#navbarResponsive ul li {
+    float: left;
+}
+#navbarResponsive ul li span svg {
+    width: 10px;
+}
+#top-nav {
+    margin-left: 65px;
+}
+.main {
+    background: url(../images/background.jpg) no-repeat;
+    margin-top: 0;
+}
+.gallon {
+    position: relative;
+}
+.gallon .col-md-12 {
+    padding: 0;
+}
+.male-hashtag {
+    position: absolute;
+    top: 125px;
+    left: 100px;
+    color: #fff;
+}
+.male-hashtag h1 {
+    font-weight: bold;
+}
+.female-hashtag{
+    position: absolute;
+    top: 125px;
+    right: 100px;
+    color: #fff;
+}
+.female-hashtag h1 {
+    font-weight: bold;
+}
+.count {
+    margin: 30px auto;
+}
+.count ul {
+    padding: 0;
+    margin: 0;
+}
+.count ul li {
+    list-style-type: none;
+    width: 40px;
+    height: 45px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+    font-size: 28px;
+    background: #052542 no-repeat;
+    margin: 0 1px;
+    font-weight: bold;
+}
+.male-hashtag ul li {
+    border-left: 3px solid #001d3a;
+}
+.female-hashtag ul li {
+    border-right: 3px solid #001d3a;
+}
+.lastest-tweet {
+    position: absolute;
+    width: 320px;
+    height: 160px;
+    border-radius: 10px;
+    padding: 30px;
+    direction: rtl;
+    text-align: right;
+}
+#male-tweet {
+    bottom: 80px;
+    left: 85px;
+    background: url(../images/male_tweet_bg.png) no-repeat;
+}
+
+#male-tweet .tweets-content {
+    -ms-transform: rotate(-6.5deg);
+    -webkit-transform: rotate(-6.5deg);
+    transform: rotate(-6.5deg);
+}
+#male-tweet .tweet-user {
+    width: 100%;
+    height: 40px;
+    -ms-transform: rotate(-4.5deg);
+    -webkit-transform: rotate(-4.5deg);
+    transform: rotate(-4.5deg);
+}
+#female-tweet .tweet-user {
+    width: 100%;
+    height: 40px;
+    -ms-transform: rotate(4.5deg);
+    -webkit-transform: rotate(4.5deg);
+    transform: rotate(4.5deg);
+}
+#male-tweet .drop {
+    width: 25px;
+    height: 26px;
+    float: right;
+    background: url(../images/male_tweet_drop.png) no-repeat;
+}
+#female-tweet .drop {
+    width: 25px;
+    height: 26px;
+    float: right;
+    background: url(../images/female_tweet_drop.png) no-repeat;
+}
+.tweets-content:after {
+    content: "";
+    background: url(../images/male_tweet_dolar.png) no-repeat;
+    width: 22px;
+    height: 19px;
+    display: inline-block;
+}
+.user-info {
+    width: 200px;
+    height: 40px;
+    float: right;
+    direction: ltr;
+}
+.user-info span{
+    padding: 0;
+    margin: 0;
+    line-height: 15px;
+    display: block;
+}
+.user-info .user-name:before {
+    content: "";
+    display: inline-block;
+    width: 19px;
+    height: 17px;
+    background: url(../images/male_tweet_check.png) no-repeat;
+}
+.user-name {
+    font-weight: bold;
+}
+.tweet-email {
+    color: #6d6e71;
+    font-size: 14px;
+}
+
+
+#female-tweet {
+    bottom: 80px;
+    right: 72px;
+    background: url(../images/female_tweet_bg.png) no-repeat;
+}
+#female-tweet .tweets-content {
+    -ms-transform: rotate(6.5deg);
+    -webkit-transform: rotate(6.5deg);
+    transform: rotate(6.5deg);
+}
+
+#gallon {
+    margin: 80px auto;
+    width: 100%;
+}
+.campaign-content {
+    height: 258px;
+    margin-top: 45px;
+}
+#campaign-content {
+    margin: 30px auto;
+}
+#campaign-content h5 {
+    font-size: 36px;
+    color: #443165;
+}
+#campaign-content ul {
+    margin: 50px auto;
+    width: 435px;
+}
+#campaign-content ul li {
+    font-size: 28px;
+    color: #6d6e71;
+    float: left;
+    list-style-type: none;
+    margin: 0 20px;
+}
+footer {
+    height: 170px;
+    color: #6d6e71;
+}
+footer p {
+    padding: 0;
+    margin: 0;
+}
+.copyright div div {
+    display: inline-block;
+    height: 20px;
+    line-height: 15px;
+}
+footer #copy-links {
+    color: #0f0;
+    border-right: 1px solid #6d6e71;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+footer .social-links ul li {
+    list-style-type: none;
+    float: left;
+    margin: 0 10px;
+}
+footer .social-links {
+    margin: 40px auto;
+}
+footer .social-links ul {
+    padding: 0;
+    width: 332px;
+    margin: 0 auto;
+}
+footer .social-links ul li a {
+    text-decoration: none;
+}
+footer .social-links ul li i {
+    display: block;
+    font-size: 25px;
+    color: #333;
+}

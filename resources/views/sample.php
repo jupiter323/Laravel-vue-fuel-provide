@@ -14,7 +14,6 @@
         <meta name="csrf-token" value="{{ csrf_token() }}" />
     </head>
     <body>
-        <input type="hidden" id="base_url" value="{{ asset('/') }}" />
         <nav class="container">
             <div class="row">
                 <div class="col-md-9">
@@ -27,17 +26,51 @@
                 </div>
             </div>
         </nav>
-        <section class="main container" id="app">
+        <section class="main container">
             <div class="gallon row">
                 <div class="col-md-12">
                     <img id='gallon' src="./assets/images/gallon.png" alt="" />
                 </div>
-
-                <malehastag-component></malehastag-component>
-                <femalehastag-component></femalehastag-component>
-
-                <maletweet-component></maletweet-component>
-                <femaletweet-component></femaletweet-component>
+                <div class="male-hashtag">
+                    <h1 class="text-center">#Laravel</h1>
+                    <div class="count" id="male-count">
+                        <ul>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>7</li>
+                            <li>7</li>
+                            <li>5</li>
+                            <li>1</li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="female-hashtag">
+                    <h1 class="text-center">#Vue.js</h1>
+                    <div class="count" id="male-count">
+                        <ul>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>7</li>
+                            <li>7</li>
+                            <li>5</li>
+                            <li>1</li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lastest-tweet" id="male-tweet">
+                    <div class="tweet-user">
+                        <div class="drop"></div>
+                        <div class="user-info">
+                            <span class="user-name">المستعمل</span>
+                            <span class="tweet-email">@taqa.sa</span>
+                        </div>
+                    </div>
+                    <p class="tweets-content">هذا هو ذكر آخر اختبار سقسقة.</p>
+                </div>
                 <div class="lastest-tweet" id="female-tweet">
                     <div class="tweet-user">
                         <div class="drop"></div>

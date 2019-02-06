@@ -17,13 +17,20 @@ class StepsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function countHastag1()
     {
         $total_tweets_1 = HashTagCrawl::where('hashtag_id', self::HASHTAG_ID_1)->count();
-        $total_tweets_2 = HashTagCrawl::where('hashtag_id', self::HASHTAG_ID_2)->count();
         
         return [
           'laravel' => $total_tweets_1,
+        ];
+    }
+
+    public function countHastag2()
+    {
+        $total_tweets_2 = HashTagCrawl::where('hashtag_id', self::HASHTAG_ID_2)->count();
+        
+        return [
           'vue' => $total_tweets_2,
         ];
     }
