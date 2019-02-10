@@ -35,8 +35,9 @@ class StepsController extends Controller
         ];
     }
 
-    public function latestTweet(){
-      $latestTweet = HashTagCrawl::where('hashtag_id', self::HASHTAG_ID_1)->orderBy('created_at', 'desc')->first();
+    public function latestTweet(Request $request){
+        $hashtag_id = $request->get('hashtag_id');
+      $latestTweet = HashTagCrawl::where('hashtag_id', $hashtag_id)->orderBy('created_at', 'desc')->first();
       if($latestTweet != null){
         $latestTweet->username = '@'.$latestTweet->username;
         return [

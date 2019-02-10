@@ -20,5 +20,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/count_hastag1', 'StepsController@countHastag1');
 Route::get('/count_hastag2', 'StepsController@countHastag2');
-Route::get('/latest-tweet', 'StepsController@latestTweet');
+Route::post('/latest-tweet', 'StepsController@latestTweet');
 Route::get('/allnames', 'StepsController@names');

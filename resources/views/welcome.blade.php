@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
         <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet" />
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
+        
         <meta name="csrf-token" value="{{ csrf_token() }}" />
     </head>
     <body>
@@ -18,7 +19,7 @@
         <nav class="container">
             <div class="row">
                 <div class="col-md-9">
-
+                    
                 </div>
                 <div class="col-md-3">
                     <div class="logo">
@@ -38,16 +39,6 @@
 
                 <maletweet-component></maletweet-component>
                 <femaletweet-component></femaletweet-component>
-                <div class="lastest-tweet" id="female-tweet">
-                    <div class="tweet-user">
-                        <div class="drop"></div>
-                        <div class="user-info">
-                            <span class="user-name">المستعمل</span>
-                            <span class="tweet-email">@taqa.sa</span>
-                        </div>
-                    </div>
-                    <p class="tweets-content">هذا هو اختبار آخر اختبار أنثى.</p>
-                </div>
             </div>
             <div class="row campaign-content">
                 <div class="col-md-6">

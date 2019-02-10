@@ -47,6 +47,12 @@ nav {
     left: 100px;
     color: #fff;
 }
+/* #male-count {
+    position: absolute;
+    top: 166px;
+    left: 100px;
+    color: #fff;
+} */
 .male-hashtag h1 {
     font-weight: bold;
 }
@@ -80,43 +86,56 @@ nav {
 }
 .male-hashtag ul li {
     border-left: 3px solid #001d3a;
+    overflow: hidden;
 }
 .female-hashtag ul li {
     border-right: 3px solid #001d3a;
+    overflow: hidden;
 }
 .lastest-tweet {
     position: absolute;
     width: 320px;
-    height: 160px;
+    min-height: 160px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
     direction: rtl;
     text-align: right;
 }
 #male-tweet {
-    bottom: 80px;
+    top: 845px;
     left: 85px;
-    background: url(../images/male_tweet_bg.png) no-repeat;
+    background: #fff;
+    -ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg) skew(-7deg);
+    border-left: 7px solid #bebec2;
 }
-
+#male-tweet p {
+    padding: 0;
+    margin: 0;
+}
+#female-tweet p {
+    padding: 0;
+    margin: 0;
+}
 #male-tweet .tweets-content {
-    -ms-transform: rotate(-6.5deg);
-    -webkit-transform: rotate(-6.5deg);
-    transform: rotate(-6.5deg);
+    -ms-transform: rotate(-1.5deg);
+    -webkit-transform: rotate(-1.5deg);
+    transform: rotate(-0.5deg);
 }
 #male-tweet .tweet-user {
     width: 100%;
     height: 40px;
-    -ms-transform: rotate(-4.5deg);
-    -webkit-transform: rotate(-4.5deg);
-    transform: rotate(-4.5deg);
+    -ms-transform: rotate(0.5deg);
+    -webkit-transform: rotate(0.5deg);
+    transform: rotate(0.5deg);
 }
 #female-tweet .tweet-user {
     width: 100%;
     height: 40px;
-    -ms-transform: rotate(4.5deg);
-    -webkit-transform: rotate(4.5deg);
-    transform: rotate(4.5deg);
+    -ms-transform: rotate(0.5deg);
+    -webkit-transform: rotate(0.5deg);
+    transform: rotate(0.5deg);
 }
 #male-tweet .drop {
     width: 25px;
@@ -166,14 +185,18 @@ nav {
 
 
 #female-tweet {
-    bottom: 80px;
+    top: 845px;
     right: 72px;
-    background: url(../images/female_tweet_bg.png) no-repeat;
+    background: #fff;
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg) skew(7deg);
+    border-right: 7px solid #bebec2;
 }
 #female-tweet .tweets-content {
-    -ms-transform: rotate(6.5deg);
-    -webkit-transform: rotate(6.5deg);
-    transform: rotate(6.5deg);
+    -ms-transform: rotate(0.5deg);
+    -webkit-transform: rotate(0.5deg);
+    transform: rotate(0.5deg);
 }
 
 #gallon {
@@ -242,3 +265,6 @@ footer .social-links ul li i {
     font-size: 25px;
     color: #333;
 }
+
+
+
