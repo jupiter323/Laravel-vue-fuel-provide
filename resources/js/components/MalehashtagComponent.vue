@@ -93,15 +93,15 @@
   margin-top: -225px;
 }
 .count > ul > li.d6:before {
-  margin-top: -268px;
+  margin-top: -270px;
 }
 .count > ul > li.d7:before {
-  margin-top: -311px;
+  margin-top: -315px;
 }
 .count > ul > li.d8:before {
-  margin-top: -356px;
+  margin-top: -360px;
 }
 .count > ul > li.d9:before {
-  margin-top: -401px;
+  margin-top: -405px;
 }
 </style>
