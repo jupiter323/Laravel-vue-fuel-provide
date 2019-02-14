@@ -6286,7 +6286,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.count > ul > li[data-v-6c894489]:before {\n  content: ' 0 1 2 3 4 5 6 7 8 9 ';\n  display: block;\n  word-break: break-all;\n  word-break: break-word;\n  transition: 0.7s cubic-bezier(0.12, 0.78, 0.52, 1.2);\n  line-height: 45px;\n  font-weight: bold;\n  text-shadow: 0 1px 0 #ccc,\n               0 2px 0 #c9c9c9,\n               0 3px 0 #bbb,\n               0 0px 0 #b9b9b9,\n               0 0px 0 #aaa,\n               0 6px 1px rgba(0,0,0,.1),\n               0 0 5px rgba(0,0,0,.1),\n               0 1px 3px rgba(0,0,0,.3),\n               0 3px 5px rgba(0,0,0,.2),\n               0 5px 10px rgba(0,0,0,.25),\n               0 10px 10px rgba(0,0,0,.2),\n               0 20px 20px rgba(0,0,0,.15);\n}\n.count > ul > li.d1[data-v-6c894489]:before {\n  margin-top: -45px;\n}\n.count > ul > li.d2[data-v-6c894489]:before {\n  margin-top: -90px;\n}\n.count > ul > li.d3[data-v-6c894489]:before {\n  margin-top: -135px;\n}\n.count > ul > li.d4[data-v-6c894489]:before {\n  margin-top: -180px;\n}\n.count > ul > li.d5[data-v-6c894489]:before {\n  margin-top: -225px;\n}\n.count > ul > li.d6[data-v-6c894489]:before {\n  margin-top: -270px;\n}\n.count > ul > li.d7[data-v-6c894489]:before {\n  margin-top: -315px;\n}\n.count > ul > li.d8[data-v-6c894489]:before {\n  margin-top: -360px;\n}\n.count > ul > li.d9[data-v-6c894489]:before {\n  margin-top: -405px;\n}\n", ""]);
+exports.push([module.i, "\n.count > ul > li[data-v-6c894489]:before {\r\n  content: ' 0 1 2 3 4 5 6 7 8 9 ';\r\n  display: block;\r\n  word-break: break-all;\r\n  word-break: break-word;\r\n  transition: 0.7s cubic-bezier(0.12, 0.78, 0.52, 1.2);\r\n  line-height: 45px;\r\n  font-weight: bold;\r\n  text-shadow: 0 1px 0 #ccc,\r\n               0 2px 0 #c9c9c9,\r\n               0 3px 0 #bbb,\r\n               0 0px 0 #b9b9b9,\r\n               0 0px 0 #aaa,\r\n               0 6px 1px rgba(0,0,0,.1),\r\n               0 0 5px rgba(0,0,0,.1),\r\n               0 1px 3px rgba(0,0,0,.3),\r\n               0 3px 5px rgba(0,0,0,.2),\r\n               0 5px 10px rgba(0,0,0,.25),\r\n               0 10px 10px rgba(0,0,0,.2),\r\n               0 20px 20px rgba(0,0,0,.15);\n}\n.count > ul > li.d1[data-v-6c894489]:before {\r\n  margin-top: -45px;\n}\n.count > ul > li.d2[data-v-6c894489]:before {\r\n  margin-top: -90px;\n}\n.count > ul > li.d3[data-v-6c894489]:before {\r\n  margin-top: -135px;\n}\n.count > ul > li.d4[data-v-6c894489]:before {\r\n  margin-top: -180px;\n}\n.count > ul > li.d5[data-v-6c894489]:before {\r\n  margin-top: -225px;\n}\n.count > ul > li.d6[data-v-6c894489]:before {\r\n  margin-top: -270px;\n}\n.count > ul > li.d7[data-v-6c894489]:before {\r\n  margin-top: -315px;\n}\n.count > ul > li.d8[data-v-6c894489]:before {\r\n  margin-top: -360px;\n}\n.count > ul > li.d9[data-v-6c894489]:before {\r\n  margin-top: -405px;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -49427,8 +49427,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! d:\new_www\twitter\tweet\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! d:\new_www\twitter\tweet\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\ani\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\ani\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
